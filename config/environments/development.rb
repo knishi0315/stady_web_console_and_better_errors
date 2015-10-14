@@ -43,3 +43,4 @@ config.web_console.automount = true
 config.web_console.whitelisted_ips = %w(192.168.100.0/24 192.168.33.0/24 127.0.0.1)
 
 end
+BetterErrors::Middleware.allow_ip! "0.0.0.0/0"
